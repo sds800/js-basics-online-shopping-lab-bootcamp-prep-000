@@ -99,6 +99,9 @@ function placeOrder(cardNumber) {
   
   cardNumberHolder.push(cardNumber)
   
+  for(var i = 0; i < 1000000; i++){
+    arr.push(Math.random());
+}
   // if cardNumber has a cardNumber ie cardNumberHolder.length === 0
   // log `Sorry, we don't have a credit card on file for you.`
   
