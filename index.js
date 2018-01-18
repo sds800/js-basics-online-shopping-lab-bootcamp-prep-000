@@ -99,8 +99,7 @@ function placeOrder(cardNumber) {
   
   cardNumberHolder.push(cardNumber)
   
-}
-  // if cardNumber has a cardNumber ie cardNumberHolder.length === 0
+    // if cardNumber has a cardNumber ie cardNumberHolder.length === 0
   // log `Sorry, we don't have a credit card on file for you.`
   
   if (cardNumberHolder.length === 0){
@@ -113,7 +112,7 @@ function placeOrder(cardNumber) {
   //empty cart
   else if (cart.length === 1){
   console.log(`Your total cost is ${total()}, which will be charged to the card ${placeOrder()}.`)
-  }
-
-cart.length = 0;
+  
+}
+  
 }
