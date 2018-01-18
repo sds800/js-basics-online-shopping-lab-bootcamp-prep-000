@@ -97,7 +97,7 @@ function placeOrder(cardNumber) {
   
   // then add card to var cardNumberHolder 
   
-  cardNumberHolder.push('cardNumber')
+  cardNumberHolder.push(cardNumber)
   
     // cardNumberHolder.length === 0
   // log `Sorry, we don't have a credit card on file for you.`
