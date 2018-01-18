@@ -112,7 +112,7 @@ function placeOrder(cardNumber) {
   //empty cart
   
   else if (cardNumberHolder.length === 1){
-  console.log(`Your total cost is ${total()}, which will be charged to the card ${cardNumber}.`)
+  console.log(`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`)
 }
 cart.length = 0;
 }
