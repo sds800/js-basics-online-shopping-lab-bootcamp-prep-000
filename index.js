@@ -63,7 +63,7 @@ function removeFromCart(item) {
   const index = cart.indexOf(item);
     for (var i = 0; i < 101; i++) {
        if ([i] === (Object.values(cart[i])[0])) {
-      cart.splice(index, 1);
+      cart.splice(indexOf(Object.values(cart[i])[0])), 1);
          
         }
 else{
