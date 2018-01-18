@@ -114,4 +114,5 @@ function placeOrder(cardNumber) {
   else if (cardNumberHolder.length === 1){
   console.log(`Your total cost is ${total()}, which will be charged to the card ${placeOrder()}.`)
 }
+cart 
 }
