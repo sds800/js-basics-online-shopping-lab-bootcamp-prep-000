@@ -105,6 +105,7 @@ function placeOrder(cardNumber) {
   if (cardNumberHolder.length === 0){
   console.log(`Sorry, we don't have a credit card on file for you.`)
   }
+  
   // if cardNumber has a cardNumber ie cardNumberHolder.length === 1
   // log Your total cost is $71, which will be charged to the card 83296759
   //.(where 71 is the value returned by total() and 83296759 is the 
