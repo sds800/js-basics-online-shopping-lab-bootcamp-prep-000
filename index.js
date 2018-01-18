@@ -111,7 +111,7 @@ function placeOrder(cardNumber) {
   //credit card number passed to placeOrder()
   
   else if (cart.length === 1){
-  console.log(`Your total cost is ${total()}, which will be charged to the card 83296759.`)
+  console.log(`Your total cost is ${total()}, which will be charged to the card ${placeOrder()}.`)
   }
 
 }
