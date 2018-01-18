@@ -104,5 +104,11 @@ function placeOrder(cardNumber) {
   
   if (cardNumberHolder.length === 0){
   console.log(`Sorry, we don't have a credit card on file for you.`)
-}
+  }
+  
+  
+  else if (cart.length === 1){
+  console.log(`In your cart, you have ${lookCart[0]}.`)
+  }
+
 }
