@@ -60,7 +60,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  var index = cart.indexOf(item);
+  const index = cart.indexOf(item);
     for (var i = 0; i < 101; i++) {
        if ([i] === (Object.values(cart[i])[0])) {
       cart.splice(index, 1);
