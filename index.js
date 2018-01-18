@@ -93,7 +93,7 @@ function placeOrder(cardNumber) {
   
   // create a varible to hold cc#
   
-  var cardNumberHolder = []
+  //var cardNumberHolder = []
   
   // then add card to var cardNumberHolder 
   
@@ -102,7 +102,7 @@ function placeOrder(cardNumber) {
     // cardNumberHolder.length === 0
   // log `Sorry, we don't have a credit card on file for you.`
   
-  if (cardNumberHolder.length === 0){
+  if //(cardNumberHolder.length === 0){
   console.log(`Sorry, we don't have a credit card on file for you.`)
   }
   
