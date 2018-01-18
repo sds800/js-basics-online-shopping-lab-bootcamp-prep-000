@@ -72,10 +72,10 @@ function total() {
 //    }
 //}
 function removeFromCart(item) {
-    var currItem = cart[i];
+   // var currItem = cart[i];
     for (var i = 0; i < cart.length; i++) {
        
-      //  var currItem = cart[i];
+       var currItem = cart[i];
         
         if (currItem.hasOwnProperty(item)) {
            
