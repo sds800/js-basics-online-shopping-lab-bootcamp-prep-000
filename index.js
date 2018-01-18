@@ -110,9 +110,8 @@ function placeOrder(cardNumber) {
   //.(where 71 is the value returned by total() and 83296759 is the 
   //credit card number passed to placeOrder()
   //empty cart
+  
   else if (cart.length === 1){
   console.log(`Your total cost is ${total()}, which will be charged to the card ${placeOrder()}.`)
-  
 }
-  
 }
