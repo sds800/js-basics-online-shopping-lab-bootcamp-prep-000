@@ -113,7 +113,7 @@ function placeOrder(cardNumber) {
   else if (cart.length === 1){
   console.log(`Your total cost is ${total()}, which will be charged to the card ${placeOrder()}.`)
   }
-  
+
 cart.length = 0;
 return cart;
 }
