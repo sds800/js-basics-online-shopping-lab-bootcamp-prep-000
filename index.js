@@ -63,7 +63,6 @@ function removeFromCart(item) {
  //var findItem = Object.keys(cart[i])[0]
  for (var i = 0; i < cart.length; i++){
    
-  (cart.length[i].match((Object.keys(cart[i])[0]))) 
   
 (cart.hasOwnProperty('property1'))
      
