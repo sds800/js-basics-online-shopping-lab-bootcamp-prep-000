@@ -60,12 +60,12 @@ function total() {
 }
 
 function removeFromCart(item) {
- var findItem = Object.keys(cart[i])[0]
+ //var findItem = Object.keys(cart[i])[0]
  for (var i = 0; i < cart.length; i++){
    
   (cart.length[i].match((Object.keys(cart[i])[0]))) 
   
-(object1.hasOwnProperty('property1'))
+(cart.hasOwnProperty('property1'))
      
    }
 
