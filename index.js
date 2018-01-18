@@ -72,16 +72,15 @@ function total() {
 //    }
 //}
 function removeFromCart(item) {
-    // Loop over the items in the cart: i is the index
+   
     for (var i = 0; i < cart.length; i++) {
-        // Use the index to retrieve the item object, which looks like: { tomatoes: 55 }
+       
         var currItemObj = cart[i];
-        // Check if this object has the key we're looking for
+        
         if (currItemObj.hasOwnProperty(item)) {
-            // Found it! Now remove the item object from the cart. We already know the index,
-            // and can use splice to remove a number of elements (1) from the cart, starting there.
+           
             cart.splice(i, 1);
-            // We found and removed the item. Now just cut the loop short and return the cart.
+          
             return cart;
         }
     }
