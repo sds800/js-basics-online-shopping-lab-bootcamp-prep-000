@@ -90,5 +90,17 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  // write your code here
+  
+  // create a varible to hold cc#
+  
+  var cardNumberHolder = []
+  
+  // then add card to var cardNumberHolder 
+  
+  cardNumberHolder.push(cardNumber)
+  
+  // if cardNumber has a cardNumber ie cardNumberHolder.length === 1
+  if (cardNumberHolder.length === 0){
+  console.log(`Your shopping cart is empty.`)
+}
 }
