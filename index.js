@@ -100,7 +100,9 @@ function placeOrder(cardNumber) {
   cardNumberHolder.push(cardNumber)
   
   // if cardNumber has a cardNumber ie cardNumberHolder.length === 1
+  log 
+  
   if (cardNumberHolder.length === 0){
-  console.log(`Your shopping cart is empty.`)
+  console.log(`Sorry, we don't have a credit card on file for you.`)
 }
 }
