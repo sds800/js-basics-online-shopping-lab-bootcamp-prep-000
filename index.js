@@ -99,8 +99,8 @@ function placeOrder(cardNumber) {
   
   cardNumberHolder.push(cardNumber)
   
-  // if cardNumber has a cardNumber ie cardNumberHolder.length === 1
-  log 
+  // if cardNumber has a cardNumber ie cardNumberHolder.length === 0
+  // log `Sorry, we don't have a credit card on file for you.`
   
   if (cardNumberHolder.length === 0){
   console.log(`Sorry, we don't have a credit card on file for you.`)
