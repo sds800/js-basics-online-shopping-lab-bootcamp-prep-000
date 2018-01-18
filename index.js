@@ -65,7 +65,7 @@ function removeFromCart(item) {
    
   (cart.length[i].match((Object.keys(cart[i])[0]))) 
   
-
+(object1.hasOwnProperty('property1'))
      
    }
 
